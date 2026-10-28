@@ -66,4 +66,4 @@ Available payout methods depend on Cashfree's supported options.
 
 For assistance, contact DressDepo customer support through [g.dressdepo@gmail.com](mailto:g.dressdepo@gmail.com) OR [trendtrades.nazzz@gmail.com](mailto:trendtrades.nazzz@gmail.com) OR [nazzz.infotech@gmail.com](mailto:nazzz.infotech@gmail.com).
 
-We Recommend to main first [g.dressdepo@gmail.com](mailto:g.dressdepo@gmail.com).
+We Recommend to mail our first e-mail account ([g.dressdepo@gmail.com](mailto:g.dressdepo@gmail.com)).
