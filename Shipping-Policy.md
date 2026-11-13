@@ -53,7 +53,7 @@ To track an order:
 
 1. Log in to your DressDepo account.
 2. Navigate to **Orders**.
-3. Click on **View Order** button on the relevant order.
+3. Click on **More Details** button on the relevant order.
 4. Click on **🚚 Track Order** button.
 
 Tracking updates depend on the courier partner and may not always be available immediately after dispatch.
