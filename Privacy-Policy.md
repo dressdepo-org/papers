@@ -1,4 +1,3 @@
-
 # Privacy Policy
 
 **Last Updated: 14 November 2026**
@@ -613,76 +612,124 @@ Where continued retention of identifiable information is no longer permitted, we
 
 ## 14. Account Closure and Deletion
 
-### 14.1 Current Availability
+### 14.1 Account Deletion Availability
 
-DressDepo does not currently provide an automated customer account-deletion feature.
+DressDepo provides customers with an account-deletion feature through their account settings.
 
-A formal self-service account-closure system is under development.
+Customers may submit an account-deletion request directly through the DressDepo website.
 
-Customers may contact g.dressdepo@gmail.com to raise an account-closure or personal-data-related request.
+The account-deletion process is designed to protect customers' ongoing orders, deliveries, refunds, and legitimate transaction records.
 
-Requests will be reviewed according to applicable legal requirements and available procedures.
+### 14.2 Account Deletion Process
 
-### 14.2 Planned Account Closure System
+When a customer submits an account-deletion request:
 
-DressDepo is developing a system that may allow customers to request account closure from their account settings.
-
-The proposed process includes:
-
-1. The customer submits an account-closure request.
+1. The customer initiates the deletion request through their account.
 2. The customer may optionally provide a reason for leaving DressDepo.
-3. DressDepo checks for outstanding orders, returns, refunds, and other unresolved transactions.
-4. Relevant pending transactions are handled before their required records are removed or restricted.
-5. Customer authentication access is disabled.
-6. The original internal user record is reassigned to a restricted internal email address.
-7. Historical business records remain available for legitimate reporting and operational purposes, subject to applicable law.
+3. DressDepo checks whether the customer has any outstanding orders or unresolved transactions.
+4. If qualifying active orders exist, the account is moved into **Pending Account Deletion** status.
+5. The pending deletion process remains in place until all qualifying active orders have been delivered or cancelled.
+6. Once these order conditions are satisfied, the account-deletion process can proceed.
+7. The original customer account is transferred to a restricted internal account, and customer login access is disabled.
+8. Historical transaction records may be retained where necessary for legitimate business, financial, legal, and operational purposes, subject to applicable privacy laws.
 
-The feedback field explaining the reason for closure would be optional.
+The reason for account deletion is optional.
 
-### 14.3 Pending Orders and Returns
+### 14.3 Pending Orders During Account Deletion
 
-The proposed account-closure process will account for outstanding transactions such as:
+If a customer has any orders in the following statuses when submitting an account-deletion request, the account will enter **Pending Account Deletion** status:
 
-- Pending orders
-- Orders awaiting shipment
-- Orders in transit
-- Returns in transit
-- Pending refunds
-- Unresolved order disputes
+- `PENDING`
+- `CONFIRMED`
+- `PACKED`
+- `SHIPPED`
+- `OUT_FOR_DELIVERY`
 
-Information necessary to complete these transactions may need to remain available until the relevant obligations have been resolved.
+Account deletion will remain pending until all orders in these statuses have reached either of the following outcomes:
 
-The presence of an outstanding order does not automatically authorise indefinite retention of all unrelated personal information.
+- **DELIVERED:** The order has been successfully delivered to the customer.
+- **CANCELLED:** The order has been cancelled.
 
-### 14.4 Internal Account Transfer
+During this period, DressDepo will continue processing the relevant orders, including shipment coordination, delivery, cancellation, and other necessary order-related operations.
 
-Under the proposed system, DressDepo intends to retain the original internal user ID while changing the associated email address to an internal synthetic address.
+The account-deletion request does not automatically cancel outstanding orders or interrupt their fulfilment.
 
-An example format is:
+### 14.4 Pending Refunds and Financial Transactions
+
+Submitting an account-deletion request does not cancel, remove, or invalidate an existing or ongoing refund.
+
+Any refund that is already pending, being processed, or awaiting completion will continue to be handled according to the applicable refund procedures.
+
+DressDepo may retain the information necessary to:
+
+- Process outstanding refunds.
+- Track refund transaction statuses.
+- Maintain payment and refund references.
+- Complete financial reconciliation.
+- Resolve refund-related disputes.
+- Maintain legally required financial records.
+
+The completion of an account-deletion request does not mean that an outstanding refund is cancelled or forfeited.
+
+Relevant refund and transaction records may remain in DressDepo's systems after account deletion where required for legitimate operational or legal purposes.
+
+### 14.5 Internal Account Transfer
+
+After the applicable account-deletion conditions have been satisfied, DressDepo may retain the original internal user ID while transferring the account to a restricted internal email address.
+
+An example of the internal email format is:
 
 `transferreddeleteduser.<randomId>@dressdepo.com`
 
-The internal account would have special restrictions intended to prevent customer login or access through the DressDepo storefront.
+The transferred account will have special restrictions intended to prevent the former customer from logging in or accessing customer account functionality.
 
-This would allow historical order relationships and internal reporting references to be preserved.
+This process allows DressDepo to preserve necessary historical order relationships, transaction references, and internal reporting records.
 
-### 14.5 Difference Between Account Closure and Data Erasure
+### 14.6 Difference Between Account Deletion and Data Erasure
 
-Changing a customer's email address, disabling account access, or assigning special internal account flags does not necessarily delete or anonymise personal information.
+Account deletion and complete personal-data erasure are not necessarily the same thing.
 
-If names, phone numbers, addresses, identifiable order details, or other identifiers remain associated with the internal user record, those records may still constitute personal data.
+Disabling customer login access, changing the associated email address, or transferring an account to an internal restricted account does not automatically erase all personal information.
 
-The proposed account-transfer process should therefore be understood as account closure and pseudonymisation, rather than complete personal-data erasure.
+Certain information may be retained where necessary for:
 
-### 14.6 Personal Data Erasure Requests
+- Completing outstanding orders and refunds.
+- Financial accounting and taxation.
+- Payment reconciliation.
+- Seller settlements and commissions.
+- Returns, disputes, and customer support.
+- Fraud prevention and security.
+- Compliance with applicable legal obligations.
 
-Customers may separately request erasure of their personal information by contacting DressDepo.
+Where personal information is no longer required for these purposes and no lawful retention requirement applies, DressDepo will handle its erasure or anonymisation in accordance with applicable law.
 
-We will review such requests according to applicable privacy laws, legal retention requirements, outstanding transactions, and other permitted exceptions.
+### 14.7 Historical Orders and Account Records
 
-Information that must legally be erased cannot be retained indefinitely solely for internal analytics, coupon eligibility, or business convenience.
+After account deletion, historical order and transaction records may continue to exist in DressDepo's systems.
 
-The proposed account-closure feature described above is not yet operational.
+This may include:
+
+- Internal user identifiers.
+- Order IDs and order details.
+- Payment and refund references.
+- Seller transaction records.
+- Financial reconciliation records.
+- Coupon usage history.
+- Relevant operational and security records.
+
+Such information may be retained to preserve accurate business records and fulfil applicable legal obligations.
+
+Where records continue to identify an individual, they will continue to be treated as personal information and handled accordingly.
+
+### 14.8 Personal Data Erasure Requests
+
+Customers may separately request the erasure of personal information by contacting DressDepo.
+
+Such requests will be reviewed according to applicable privacy laws, outstanding transactions, financial recordkeeping requirements, and other lawful exceptions.
+
+The presence of an account-deletion request does not authorise DressDepo to disregard mandatory data-erasure obligations.
+
+DressDepo will not retain identifiable personal information indefinitely solely for internal analytics, coupon eligibility, or business convenience where such retention is not legally permitted.
 
 ---
 
