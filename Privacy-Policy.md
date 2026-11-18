@@ -1,6 +1,6 @@
 # Privacy Policy
 
-**Last Updated: 14 November 2026**
+**Last Updated: 18 November 2026**
 
 Welcome to **DressDepo** (https://dressdepo.com).
 
