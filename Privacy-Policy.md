@@ -1,6 +1,6 @@
-# Privacy Policy
+# DressDepo – Privacy Policy
 
-**Last Updated: 18 November 2026**
+**Last Updated: 20 November 2026**
 
 Welcome to **DressDepo** (https://dressdepo.com).
 
@@ -56,6 +56,8 @@ When customers register or use DressDepo, we may collect:
 - Account creation and update timestamps
 - Account preferences
 - Authentication and session information
+- Email address change and account transfer information
+- OTP verification records and related verification statuses
 
 DressDepo currently supports:
 
@@ -180,6 +182,23 @@ When customers contact DressDepo, we may collect:
 
 This information helps us investigate and respond to customer requests.
 
+### 2.10 Email Address Transfer Information
+
+DressDepo provides a feature that allows customers to change the email address associated with their existing account through the **Transfer Email Address** functionality.
+
+When customers use this feature, we may collect and process:
+
+- Existing registered email address
+- New email address
+- OTPs sent for verification
+- OTP verification status
+- Email ownership verification records
+- Email transfer confirmation status
+- Related account security and activity information
+- Relevant timestamps and technical records
+
+This information is used to verify ownership of both email addresses, prevent unauthorised account changes, maintain account security, and complete the requested email address transfer.
+
 ---
 
 ## 3. Seller Information
@@ -244,8 +263,28 @@ DressDepo processes information for the following purposes:
 - Maintaining account access
 - Managing customer preferences
 - Protecting accounts against unauthorised activity
+- Verifying account ownership
+- Managing changes to registered email addresses
 
-### 4.2 Order Processing
+### 4.2 Email Address Transfer and Verification
+
+When customers request an email address transfer, we use relevant information to:
+
+- Verify the customer's ownership of the currently registered email address.
+- Send OTPs to the existing email address for verification.
+- Verify the customer's ownership of the proposed new email address.
+- Send OTPs to the proposed new email address.
+- Check whether the proposed email address is already associated with another DressDepo customer account.
+- Prevent multiple customer accounts from being associated with the same email address.
+- Obtain confirmation before completing the email address transfer.
+- Update the email address associated with the existing customer account.
+- Maintain the account's existing identity, internal user ID, and associated records.
+- Prevent unauthorised account transfers and suspicious account activity.
+- Maintain relevant verification and security records.
+
+The email address transfer feature does not create a new customer account or delete the existing customer account. It updates the registered email address of the existing account.
+
+### 4.3 Order Processing
 
 - Receiving and confirming orders
 - Processing payments
@@ -254,7 +293,7 @@ DressDepo processes information for the following purposes:
 - Arranging product delivery
 - Providing order updates
 
-### 4.3 Returns and Refunds
+### 4.4 Returns and Refunds
 
 - Processing cancellations
 - Handling return requests
@@ -262,7 +301,7 @@ DressDepo processes information for the following purposes:
 - Processing refunds
 - Resolving disputes
 
-### 4.4 Seller Operations
+### 4.5 Seller Operations
 
 - Registering and verifying sellers
 - Managing product listings
@@ -271,7 +310,7 @@ DressDepo processes information for the following purposes:
 - Preparing sales reports
 - Monitoring seller performance
 
-### 4.5 Internal Analytics
+### 4.6 Internal Analytics
 
 - Analysing sales performance
 - Tracking product demand
@@ -281,15 +320,17 @@ DressDepo processes information for the following purposes:
 - Analysing returns and cancellations
 - Improving marketplace operations
 
-### 4.6 Security and Fraud Prevention
+### 4.7 Security and Fraud Prevention
 
 - Detecting suspicious activity
 - Preventing fraudulent transactions
 - Protecting customer and seller accounts
 - Monitoring platform security
 - Investigating technical issues
+- Preventing unauthorised email address changes
+- Detecting suspicious OTP verification attempts
 
-### 4.7 Legal and Business Requirements
+### 4.8 Legal and Business Requirements
 
 - Maintaining transaction records
 - Accounting and taxation
@@ -477,6 +518,8 @@ These may include:
 
 - Account verification messages
 - Authentication and security notifications
+- Email address verification OTPs
+- Email address transfer notifications
 - Order confirmations
 - Payment confirmations
 - Shipping updates
@@ -486,6 +529,41 @@ These may include:
 - Refund notifications
 - Customer support responses
 - Important service announcements
+
+### 10.1 Email Address Transfer Communications
+
+When a customer initiates an email address transfer, DressDepo sends verification OTPs to:
+
+1. The customer's currently registered email address.
+2. The new email address the customer wishes to associate with their account.
+
+The OTP sent to the existing email address is used to verify access to the currently registered email account.
+
+After successful verification, the customer can enter the new email address and request another OTP.
+
+The OTP sent to the new email address is used to verify access to that email address.
+
+If the proposed new email address is already associated with another existing DressDepo customer account, the email address transfer request cannot proceed using that email address.
+
+After both verification steps are completed, the customer must explicitly confirm the transfer to complete the change.
+
+These verification steps are intended to protect customers against unauthorised changes to their registered email addresses.
+
+### 10.2 Email Address Transfer and Existing Sessions
+
+After a successful email address transfer:
+
+- The new email address becomes the registered email address associated with the existing customer account.
+- The previous email address is released from its association with that account and becomes available for use with another DressDepo account, subject to normal registration and account verification requirements.
+- The customer's existing account and account-related records remain associated with the same account.
+- The existing account password remains unchanged.
+- The customer can log in using the new email address and their existing password.
+
+Other devices on which the customer is already logged in may take up to **30 minutes** to reflect the updated email address.
+
+This delay may occur because of session or account information synchronisation across devices and systems.
+
+Customers should use their new email address for subsequent login and account-related activities after the transfer.
 
 DressDepo does not currently operate promotional marketing email campaigns.
 
@@ -565,6 +643,7 @@ Information maintained by DressDepo may include:
 - Customer support records
 - Internal analytics
 - Security and operational logs
+- Relevant account email transfer and verification records
 
 Different records may be subject to different legal and operational retention requirements.
 
@@ -731,6 +810,23 @@ The presence of an account-deletion request does not authorise DressDepo to disr
 
 DressDepo will not retain identifiable personal information indefinitely solely for internal analytics, coupon eligibility, or business convenience where such retention is not legally permitted.
 
+### 14.9 Email Address Transfer Is Not Account Deletion
+
+The **Transfer Email Address** feature is different from the account-deletion functionality.
+
+When a customer successfully transfers their registered email address:
+
+- The existing customer account continues to exist.
+- The account's internal user ID remains unchanged.
+- The account's existing password remains unchanged.
+- Historical orders, transactions, coupons, and other associated records remain linked to the same account.
+- The new email address becomes the registered email address for that account.
+- The previous email address is released from its association with the account.
+
+An email address transfer does not deactivate, close, delete, or erase the customer's account or associated personal information.
+
+Customers who wish to close their account must use the separate account-deletion functionality.
+
 ---
 
 ## 15. Children's Privacy
@@ -816,6 +912,8 @@ Users may request information about personal data processed in connection with t
 
 Users may request correction or updating of inaccurate personal information.
 
+Customers may also update their registered email address through the Transfer Email Address functionality, subject to the required verification and confirmation procedures.
+
 ### 18.3 Data Erasure
 
 Users may request erasure of personal information, subject to applicable legal exceptions and retention obligations.
@@ -892,7 +990,7 @@ Where a suspected personal-data breach occurs, DressDepo will assess:
 - Necessary remediation
 - Applicable legal notification requirements
 
-Where notification to individuals or regulatory authorities is legally required, DressDepo will be required to follow the applicable procedures and deadlines.
+Where notification to individuals or regulatory authorities is legally required, we will be required to follow the applicable procedures and deadlines.
 
 ---
 
@@ -970,6 +1068,7 @@ Changes may result from:
 - Changes in payment providers
 - Changes in shipping services
 - Account-closure functionality
+- Email address transfer and verification functionality
 - New review and image-upload features
 - Changes in internal analytics
 - Changes in security measures
